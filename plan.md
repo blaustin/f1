@@ -26,6 +26,31 @@ Educating Model:
 
     - for lap n+2, use orders from lap n+1 (i.e., this process must be started on lap 2, using lap 1 as a base case)
   
+**PSEUDOCODE** 
+ 
+  import csv
+
+with open (#driver CSV files)
+    reader = csv.DictReader
+    for row in reader:
+        name = str(row["driver"])
+        driver[name] = {
+            "driver rating" = int()
+            "tire life" = float()
+            "lap times" = list(#all previous times on current race)
+        }
+            
+with open (#track CSV files)
+    reader = csv.DictReader
+    for row in reader:
+        name = str(row("trackname")
+        Track[name] = {
+            "conditions" = 
+            "track type" = #straight/turn-heavy
+        }
+              
+#Update these attributes                   
+
   
   
   
