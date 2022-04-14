@@ -11,3 +11,10 @@ def TrackRating():
         reader = csv.DictReader(f)
         for row in reader:
               
+              
+              
+              
+#Driver/Car Rating
+    
+    #Car Rating: use relative lap time?
+    #Driver Rating: use ??
