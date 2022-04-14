@@ -2,3 +2,11 @@ Overtakes by track (1994-2022) https://docs.google.com/spreadsheets/d/1XueNI7Zaw
 Average overtakes by season (1994-2022) https://docs.google.com/spreadsheets/d/1rZMdT-FNCc1T688xWIrZi4FWETbQdEM7bh8ZZQcDlc8/edit#gid=0
 
 Use data from 2014-2029, test on 2021
+
+#how to work with fastf1 articles
+https://pandeyparul.medium.com/accessing-formula-1-races-historical-data-using-python-b7c80e544f50
+https://medium.com/towards-formula-1-analysis/how-i-analyze-formula-1-data-with-python-2021-italian-gp-dfb11db4b73
+https://medium.com/towards-formula-1-analysis/formula-1-data-analysis-tutorial-2021-russian-gp-to-box-or-not-to-box-da6399bd4a39
+
+LINK TO FastF1 Github
+https://github.com/theOehrly/Fast-F1/
