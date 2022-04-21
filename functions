@@ -1,0 +1,5 @@
+def get_sec(time_str):
+    """Get seconds from time."""
+    m, s = time_str.split(':')
+    time = float(m) * 60 + float(s)
+    return time
