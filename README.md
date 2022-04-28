@@ -20,7 +20,7 @@ will need to install inflect library `I got this to convert 1 to 1st etc..`
 If you dont know this, make a vitual env
 
 ```
-python3 -v env env
+python3 -m venv env
 source env/bin/activate
 
 pip install inflect
