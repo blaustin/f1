@@ -69,4 +69,4 @@ Limitations
 
 Next Steps
 - Our initial plan was to create a predictice algorithm for a lap, and by extension a race. This data manipulation project has laid the necessary groundwork to do so. Given the percentages, positions, deltas, and overtakes, this dataset could definitely be used to create a simple ML model provided additional variables like racing conditions, tire life, pitting in general, and the list continues. 
-- A larger scale ML project could use these to  predict the finish order of a lap (given starting order and deltas) by using frequencies as random variables to determine chances of overtaking. This could thne be iterated for each lap in a race to give finish order, pole positions, etc.
+- A larger scale ML project could use these to  predict the finish order of a lap (given starting order and deltas) by using frequencies as random variables to determine chances of overtaking. This could then be iterated over each lap in a race to give finish order, pole positions, margins of victory, etc.
