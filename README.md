@@ -54,9 +54,10 @@ Conclusions
 - Total overtakes for the season were summed, coming out to ~1020 total, which is slightly more than the 800 or so that actually occurred in the 2021 season. Overcounting is likely due to pitting, which can be visualized by the large spike in overtakes for many drivers above ~8 second deltas. A lower cutoff may mitigate this
 - No particular trends in the data were noticed, though a more thorough walkthrough may yield further insight
 
-- Driver with most overtakes:
-- Driver with fewest overtakes:
-- Driver with highest overtake percentage for deltas between 0 and 0.5 seconds
+Data found that the:
+- Driver with most overtakes: #11 (Sergio Perez) with 88
+- Driver with fewest overtakes: #88 (Robert Kubica) with 3
+- Driver with highest overtake percentage for deltas between 0-0.5 sec: Yuki Tsunoda
 
 
 Limitations
