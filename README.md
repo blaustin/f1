@@ -2,7 +2,7 @@
 
 This is a CS32 Final Project by Brice Austin and John Deneen
 
-The basis of this project was to build a series of data stuctures that catalogs lap time data for the 2021 Formula 1 Season. Data was first transcribed (manually >:| ) from the FIA database into a folder of CSV files called "races". It was processed with the ultimnate goal of creating a histogram of each drivers overtakes, sorted by delta, which is defined as the previous lap's margin (in seconds) between a driver and the driver who was passed. The brunt of this project was data manipulation and data structure organization, although the final data structures are quite robust and present great potential for future use.
+The basis of this project was to build a series of data stuctures that catalogs lap time data for the 2021 Formula 1 Season. Data was first transcribed (manually >:| ) from the FIA database into a folder of CSV files called "races". We originally planned to use the FastF1 library to implement this functionality, but had considerable issues. It was processed with the ultimate goal of creating a histogram of each drivers overtakes, sorted by delta, which is defined as the previous lap's margin (in seconds) between a driver and the driver who was passed. The brunt of this project was data manipulation and data structure organization, although the final data structures are quite robust and present great potential for future use.
 
 
 Useful functions
@@ -61,9 +61,9 @@ Data found that the:
 
 
 Limitations
-- Some minor indexing errors are still present when calling the nameDict
+- Some minor indexing errors are still present when calling the nameDict.
 - Overtakes are only catalogged for drivers one position apart, though 3 and even 4 driver position exchanges do occur. This could be improved by examining deltas and positions between larger subsets of drivers.
-- The data structures can get quite confusing, given the nested nature of many of the dictionaries
+- The data structures can get quite confusing, given the nested nature of many of the dictionaries. Classes may be a better use case. 
 - Only one season of data was analyzed, and due to the nature of the 2021 season (COVID etc.), other seasons may be more indicative of driver performance
 - Starting order and qualifying lap times were excluded for simplicity, though definitely hold relevance to this dataset. 
 
