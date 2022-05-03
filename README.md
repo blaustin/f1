@@ -5,6 +5,9 @@ This is a CS32 Final Project by Brice Austin and John Deneen
 The basis of this project was to build a series of data stuctures that catalogs lap time data for the 2021 Formula 1 Season. Data was first transcribed (manually >:| ) from the FIA database into a folder of CSV files called "races". We originally planned to use the FastF1 library to implement this functionality, but had considerable issues. It was processed with the ultimate goal of creating a histogram of each drivers overtakes, sorted by delta, which is defined as the previous lap's margin (in seconds) between a driver and the driver who was passed. The brunt of this project was data manipulation and data structure organization, although the final data structures are quite robust and present great potential for future use.
 
 
+Usage:
+All necessary code is contained within F1_final.ipynb. This code was developed in Google Colab for ease of use for accessing the CSV files and for ease of collaboration. Simply download the ipynb and run each cell sequentially. 
+
 Useful functions
 - get_sec() was used heavily to turn strings of the form 'mm:ss.sss' into integer values of seconds
 - open_race_df() was used to pull race names, link to github CSVs, and open then as dataframes, a more easily manipulable data structure
